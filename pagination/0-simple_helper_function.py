@@ -6,6 +6,7 @@ return in a list for those particular pagination parameters.'''
 
 
 def index_range(page: int, page_size: int) -> tuple:
+    '''dvedbverve'''
     first_index = (page - 1) * page_size
     last_index = page * page_size
     return (first_index, last_index)
